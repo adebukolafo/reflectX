@@ -1,0 +1,176 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-color: #1a1a2e;
+    color: #e0e0e0;
+    line-height: 1.6;
+}
+
+header {
+    background-color: #0f0f1c;
+    color: white;
+    padding: 20px 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #333;
+}
+
+.logo h1 {
+    font-size: 28px;
+    color: #00c9ff;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+nav ul li a {
+    color: #e0e0e0;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+nav ul li a:hover {
+    color: #00c9ff;
+}
+
+.hero {
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+        url('https://via.placeholder.com/1200x600') center/cover no-repeat;
+    padding: 100px 20px;
+    text-align: center;
+    color: white;
+}
+
+.hero h2 {
+    font-size: 48px;
+    margin-bottom: 20px;
+    color: #00c9ff;
+}
+
+.hero p {
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+
+.cta-btn {
+    background-color: #00c9ff;
+    color: #1a1a2e;
+    padding: 15px 35px;
+    border: none;
+    font-size: 18px;
+    border-radius: 30px;
+    text-decoration: none;
+    font-weight: 600;
+    transition: background 0.3s ease;
+}
+
+.cta-btn:hover {
+    background-color: #00aacc;
+    color: white;
+}
+
+.features,
+.pricing,
+.contact {
+    padding: 60px 20px;
+    text-align: center;
+}
+
+.features h2,
+.pricing h2,
+.contact h2 {
+    font-size: 32px;
+    color: #00c9ff;
+    margin-bottom: 40px;
+}
+
+.feature-card,
+.price-option {
+    display: inline-block;
+    background-color: #22243b;
+    width: 300px;
+    margin: 20px;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 0 10px rgba(0, 201, 255, 0.15);
+    transition: transform 0.2s ease;
+}
+
+.feature-card:hover,
+.price-option:hover {
+    transform: translateY(-5px);
+}
+
+.feature-card h3,
+.price-option h3 {
+    font-size: 22px;
+    color: #eeeeee;
+    margin-bottom: 15px;
+}
+
+.feature-card p,
+.price-option p {
+    font-size: 16px;
+    color: #cccccc;
+}
+
+.price-option p:first-of-type {
+    font-size: 26px;
+    font-weight: 600;
+    color: #00c9ff;
+    margin-bottom: 10px;
+}
+
+.contact form {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+form input,
+form textarea {
+    width: 100%;
+    padding: 15px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    border: none;
+    background-color: #2a2a40;
+    color: white;
+    font-size: 16px;
+}
+
+form button {
+    background-color: #00c9ff;
+    color: #1a1a2e;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 30px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+form button:hover {
+    background-color: #00aacc;
+    color: white;
+}
+
+footer {
+    background-color: #0f0f1c;
+    text-align: center;
+    padding: 20px;
+    font-size: 14px;
+    color: #aaaaaa;
+    border-top: 1px solid #333;
+}
